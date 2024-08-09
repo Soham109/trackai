@@ -1,7 +1,7 @@
 
 # TrackAI
 
-Welcome to **TrackAI**, a cutting-edge pantry tracking application designed as a part of the CS50x final project. TrackAI leverages Artificial Intelligence to simplify the management of pantry items, offering a seamless and intuitive user experience. 
+Welcome to **TrackAI**, a  pantry tracking application. TrackAI leverages Artificial Intelligence to simplify the management of pantry items, offering a seamless and intuitive user experience. 
 
 ## Overview
 
@@ -44,7 +44,7 @@ TrackAI is hosted on Vercel. You can access the live application via the followi
 
 ## Contributing
 
-We welcome contributions to TrackAI! If you have suggestions or improvements, please feel free to submit a pull request or open an issue on our [GitHub repository](https://github.com/your-username/trackai).
+I welcome contributions to TrackAI! If you have suggestions or improvements, please feel free to submit a pull request or open an issue on our [GitHub repository](https://github.com/your-username/trackai).
 
 ## License
 
@@ -52,6 +52,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgements
 
-- **CS50x**: For providing the platform and resources to develop and showcase this project.
 - **Google Firebase**: For seamless authentication services.
 - **Azure Vision API**: For enabling advanced image recognition capabilities.
