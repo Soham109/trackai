@@ -1,6 +1,3 @@
-Here’s a draft for your `README.md` for TrackAI:
-
----
 
 # TrackAI
 
