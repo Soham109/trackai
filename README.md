@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Here’s a draft for your `README.md` for TrackAI:
 
-## Getting Started
+---
 
-First, run the development server:
+# TrackAI
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Welcome to **TrackAI**, a cutting-edge pantry tracking application designed as a part of the CS50x final project. TrackAI leverages Artificial Intelligence to simplify the management of pantry items, offering a seamless and intuitive user experience. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+TrackAI is a web-based application that helps users keep track of their pantry items efficiently. The application features a modern user interface built using React.js and Next.js, with additional styling enhancements and interactive features. TrackAI integrates with Google Firebase for authentication and Azure Vision API for image recognition, making it a robust tool for managing pantry inventory.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **User Registration & Authentication**: Users can register and log in using either their email or Google account. Authentication is managed through Google Firebase, ensuring secure and reliable user access.
 
-To learn more about Next.js, take a look at the following resources:
+- **Image Recognition**: Upon logging in, users can upload images of pantry items. The Azure Vision API analyzes these images and identifies the items, allowing users to easily add them to their pantry inventory.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Manual Item Addition**: Users have the option to manually add items to their pantry if image recognition is not preferred or available.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Search Functionality**: The app includes a powerful search feature that allows users to quickly find specific pantry items.
 
-## Deploy on Vercel
+- **Item Management**: Users can add new items to their pantry or remove existing ones as needed, ensuring their inventory is always up-to-date.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Custom Cursor**: For a unique touch, TrackAI features a custom cursor that enhances the visual appeal and user interaction within the application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Technologies Used
+
+- **React.js**: A popular JavaScript library for building user interfaces, providing a responsive and dynamic experience.
+
+- **Next.js**: A React framework used for server-side rendering and static site generation, optimizing performance and deployment. 
+
+- **HTML/CSS/JS**: Core technologies for structuring and styling the application.
+
+- **Material-UI**: A React component library that provides pre-designed components and styles, ensuring a polished and consistent user interface.
+
+- **Google Firebase**: Used for authentication and managing user sessions securely.
+
+- **Azure Vision API**: Integrates with the application to provide advanced image recognition capabilities, identifying pantry items from uploaded images.
+
+
+## Deployment
+
+TrackAI is hosted on Vercel. You can access the live application via the following link:
+
+[TrackAI Live](https://trackai-nu.vercel.app/)
+
+## Contributing
+
+We welcome contributions to TrackAI! If you have suggestions or improvements, please feel free to submit a pull request or open an issue on our [GitHub repository](https://github.com/your-username/trackai).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Acknowledgements
+
+- **CS50x**: For providing the platform and resources to develop and showcase this project.
+- **Google Firebase**: For seamless authentication services.
+- **Azure Vision API**: For enabling advanced image recognition capabilities.
